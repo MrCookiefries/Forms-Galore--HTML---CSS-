@@ -1,0 +1,61 @@
+<!DOCTYPEhtml>
+  <html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Other User Inputs</title>
+    <link href="../CSS/style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main>
+      <div id="intro">
+        <h1>Other User Inputs</h1>
+        <p><strong>Directions: </strong>Go through and check out the other types of inputs that users can give.</p>
+      </div>
+      <hr />
+      <div id="others">
+        <form method="POST" action="./finish.html">
+          <section id="number">
+            <h2>Number Input</h2>
+            <p>Pick a number from 0 to 100</p>
+            <input type="number" id="Q1" min="0" max="100" step="5" />
+          </section>
+          <br /> <br />
+          <section id="small text">
+            <h2>Small Text Input</h2>
+            <p>Type in text that's between 6 and 20 characters long.</p>
+            <input type="text" minlength="6" maxlength="20" />
+            <br />
+            <p>Input a password</p>
+            <input type="password" pattern="[A-Za-z]{8,0}" title="Must be 8 or more characters long. Letters only!" />
+          </section>
+          <br /> <br />
+          <section id="dd text">
+            <h2>Drop Down Menu Text</h2>
+            <p>Type your own text, or select one that's already made. <i>Select your favorite animals</i></p>
+            <input list="animals" />
+            <datalist id="animals">
+              <option value="pig">Pig</option>
+              <option value="horse">Horse</option>
+              <option value="llama">Llama</option>
+            </datalist>
+          </section>
+          <br /> <br />
+          <section id="large text">
+            <h2>Large Text Inpit</h2>
+            <p>Add a lot of text in here</p>
+            <label for="large">Tell me your favorite story!</label>
+            <br />
+            <textarea id="large" rows="6" cols="60">Testing This Line</textarea>
+          </section>
+          <br />
+          <section id="done">
+            <input type="submit" value="Take It!" />
+          </section>
+        </form>
+      </div>
+    </main>
+  </body>
+
+  </html>

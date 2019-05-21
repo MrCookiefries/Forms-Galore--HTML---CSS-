@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Add in a <main> tag for the body -->
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Rating & Opinions Form</title>
+  <link href="../CSS/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <section id="Information">
+      <h1>Quiz Submitted</h1>
+      <div id="Intro">
+        <h2>Range Form</h2>
+        <p>In this form you will be rating things on a scale.</p>
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190311151148/range-form.png" width="400" height="200" />
+        <hr />
+      </div>
+    </section>
+    <div id="Range Form">
+      <form method="POST" action="./after range.html">
+        <p><strong>Directions: </strong> the bar to position your stance on the matter.</p>
+        <br /> <br />
+        <section id="Range Q1">
+          <p><b>Which do you like more?</b></p>
+          <span>Cats</span>
+          <input type="range" value="5" min="1" max="10" id="Cats Or Dogs" name="Cats Or Dogs" />
+          <span>Dogs</span>
+          <br /> <br />
+        </section>
+        <section id="Range Q2">
+          <p><b>How awesome is this image?</b></p>
+          <img src="https://blog.csiro.au/wp-content/uploads/2018/08/file-20180822-149484-cs44toreduced.jpg" height="250" width="250" alt="Galaxy" />
+          <br /><span>Lame</span>
+          <input id="Lame Or Cool" name="Lame Or Cool" type="range" min="1" max="100" value="50" />
+          <span>Cool</span>
+          <br /> <br />
+        </section>
+        <section id="Range Q3">
+          <p><b>How do you feel about abortions?</b></p>
+          <span>Hate Them</span>
+          <input id="Abortions" name="abortions" type="range" max="1000" value="500" min="1" />
+          <span>Love Them</span>
+          <br /> <br />
+        </section>
+        <section class="Submission">
+          <input type="submit" value="Submit!" />
+        </section>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Form Home Page</title>
+  <link href="../CSS/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <section id="Home">
+      <nav>
+        <a href=""></a>
+      </nav>
+      <h1 class="title">Home Page!</h1>
+      <div id="Intro">
+        <h2 class="title">Introduction</h2>
+        <p>This site will go over the many types of forms in HTML. Complete the many forms below.</p>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAk1BMVEX///9nZ2dcXFyPVI5TJF7p6ena2trv7+9ZWVnV1dWLTIrm5ubd3d2JSYjQu9D7+fu/ob6ebZ21krTg0t/z7fKGQ4XDqcOSWZFNGVmJb4/Mws9GAFOsm7BKEFZCAE/38/e+vr6qgKnLy8uCOoFLS0uAY4fDtsYzAEKlpaWwsLDk3uXbytqmeqaANn+6mrqRWJCxjLAwemwgAAAC1ElEQVR4nO3d61LaUBSGYQjlIBBDC6ltbSUt9KAt1Pu/uioFUTAZltn720l8n19mYCSvwyQ7izC2WgAAAAAQQr8yPAWOloOKWI48FUbtihh0KSxRGAXnuTDKzgLLIs+FYz+/+3Tjxhf2KCyBQg0Ky6BQw31h8mDczMJHFxSbRVvzCruDJ2teCv3zU7hf1Te0MLr+di87OtIk6yLzu2dMH7Z+O9ohP4X/s7pHhfPFMN9idveM83S7la4d7ZCfwt7mx+Pz4Tzt5Es3hfF2a0jhqcSFw4t8w01hZ7vVmTjaIW1hCBSaUShHoRmFchSaUShHoRmFchSaUShXoWt8Z4ZfKaSwRGHRNNGZ+E+4wmQ9UTgPVxgChWYUylFoRqEchWYUylFoRqEchWYUylFoVlyYaIQrbP6c5hXM2ppfuIoF0pDTxHOJJ7emcrYwo1COQjMK5Sg0o1COQjMK5Sg0o1COQjMK5cRzmou3XkyrU+hn1pY2vjAu+lZ0I2beaXUKk9t3PtzeVKYwBArNKJSj0IxCOQrNKJSj0IxCOQrNKJSj0Kz4Gn9aXvLsy+ar3V1fq5lxh2o3a0spPKR+l6ZlVfxd2pqVZ90hzhZmFMpRaEahHIVmFMpRaEahHIVmFMpRaEahHIVmxZOouOB/Izzv79A6Aj5Q/Wli2vjCuF6FK/utlYtaFSaT92aTWhWGQKEZhXIUmlEoV9/CHx8LfN9/zFjfws+XH/JdNaLwy5t8FJZBoTMU7lBoRqEzFO5QaEahMxTuUGhGoTMU7lBopiu8usz3swmFN5+K7D/OqW/hqSg0o1COQjMK5Sg0o1COQrPKFY59F2bjwDLPhe0ouLbnwkqg8MWFy4HI5k8Z5T++HPkpTEZdkevNUTv/cZeBjwt17o+XUV/0YhR6QaFTr6RQvRjVF2ZnUr1fbXGhfDHalheGQKEzusXo4dpTVdjqh6IKBAAAAIBi/wCVvO3RZnN+FQAAAABJRU5ErkJggg=="
+          width="200" height="200" />
+        <hr />
+      </div>
+    </section>
+    <section id="Quiz">
+      <div>
+        <h2 class="title">Quiz</h2>
+        <span>Select the best answer for the following:</span> <br /> <br />
+      </div>
+      <div>
+        <form method="POST" action="./afterquiz.html">
+          <section class="Quiz" id="Quiz Q1">
+            <span><strong>What is my favorite number?</strong></span><br />
+            <input type="radio" id="Q1 82" name="Quiz Q1" value="82" required />
+            <label for="Q1 82">82</label>
+            <br />
+            <input type="radio" id="Q1 16" name="Quiz Q1" value="16" />
+            <label for="Q1 16">16</label>
+            <br />
+            <input id="Q1 24" name="Quiz Q1" value="24" type="radio" />
+            <label for="Q1 24">24</label>
+            <br />
+            <input id="Q1 30" name="Quiz Q1" type="radio" value="30" />
+            <label for="Q1 30">30</label>
+            <br />
+          </section>
+          <section id="Quiz Q2" class="Quiz">
+            <br />
+            <span><strong>When is North?</strong></span>
+            <br />
+            <input type="radio" name="Quiz Q2" id="Q2 What?" value="What?" required />
+            <label for="Q2 What?">What?</label>
+            <br />
+            <input type="radio" name="Quiz Q2" id="Spaghetti" value="Spaghetti" />
+            <label for="Spaghetti">Spaghetti</label>
+            <br />
+            <input name="Quiz Q2" type="radio" id="Q2 826" value="826" />
+            <label for="Q2 826">826</label>
+            <br />
+            <input type="radio" name="Quiz Q2" value="Tablecloth" id="Q2 Tablecloth" />
+            <label for="Q2 Tablecloth">Tablecloth</label>
+            <br />
+          </section>
+          <section id="Quiz Q3" class="Quiz">
+            <br />
+            <span><strong>What Color Is Impossible </strong></span>
+            <br />
+            <input type="radio" name="Quiz Q3" id="Q2 Brownish Orange" value="Brownish Orange" required />
+            <label for="Q2 Brownish Orange">Brownish Orange</label>
+            <br />
+            <input type="radio" name="Quiz Q3" id="Q3 Bluish Yellow" value="Bluish Yellow" />
+            <label for="Q3 Bluish Yellow">Bluish Yellow</label>
+            <br />
+            <input type="radio" name="Quiz Q3" value="Purplish Black" id="Q3 Purplish Black" />
+            <label for="Q3 Purplish Black">Purplish Black</label>
+            <br />
+            <input type="radio" name="Quiz Q3" value="Redish Grey" id="Q3 Redish Grey" />
+            <label for="Q3 Redish Grey">Redish Grey</label>
+            <br />
+          </section>
+          <section class="Quiz" id="Quiz Q4">
+            <br />
+            <span><strong>Can Images be used as options?</strong></span>
+            <br />
+            <input type="radio" name="Quiz Q4" value="I hope so" id="Q4 I hope so" required />
+            <label for="Q4 I hope so">I hope so</label>
+            <br />
+            <input type="radio" name="Quiz Q4" id="Q4 Link?" value="Link?" />
+            <label for="Q4 Link"><a href="https://www.google.com" target="_blank">Link?</a></label>
+            <br />
+            <input type="radio" name="Quiz Q4" value="Space Image" id="Q4 Space Image" />
+            <label for="Q4 Space Image">
+              <img src="http://news.mit.edu/sites/mit.edu.newsoffice/files/images/2016/MIT-Earth-Dish_0.jpg" width="200" height="100" alt="Orange galaxy void in space" />
+            </label>
+          </section>
+          <section id="Quiz Submit" class="Quiz">
+            <input class="submit" type="submit" value="Turn In" />
+          </section>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
